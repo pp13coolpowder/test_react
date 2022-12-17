@@ -1,0 +1,92 @@
+.Page{
+  background-color: rgba(255, 252, 252, 0.822);
+  padding: 2px 2px;
+}
+.hbar{
+  background-color: rgb(13, 184, 246);
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.hbar a{
+  text-decoration: none ;
+  margin: auto 15px;
+  position: relative;
+  color: black;
+  
+}
+
+.hbar a::after{
+  content: "";
+  position: absolute;
+}
+
+.body{
+  border: 2px solid black;
+  border-radius: 8px;
+  min-height: 40pc;
+}
+
+.fbar{
+  background-color: rgb(13, 184, 246);
+  padding: auto 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.p{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inc{
+  background-color: white;
+  border: 20px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+button{
+  border-radius: 5px;
+  background-color: rgba(13, 184, 246, 0.351);
+}
+
+.wano{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  
+
+  
+}
+
+.editpopup{
+background-color: white;
+border: 3px solid black;
+width: 250px;
+padding: 30px;
+position: fixed;
+bottom: 50;
+right: 0;
+z-index: 99;
+}
+.intiktok{
+  background-color: white;
+border: 4px solid black;
+width: 250px;
+padding: 12px;
+}
+.inyoutube{
+  background-color: white;
+border: 4px solid black;
+width: 250px;
+padding: 12px;
+}
